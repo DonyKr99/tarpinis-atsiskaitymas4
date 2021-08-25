@@ -1,0 +1,50 @@
+.rights {
+  // display:flex;
+  // justify-content: space-evenly;
+  // flex-direction: row;
+  background: #F8F8F8;
+  height: 120px;
+}
+
+li a {
+  // display: flex;
+  // justify-content: flex-start;
+  color: #3366ff;
+  margin: 0 60px 0 35px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+
+.social {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  // padding-right: 220px;
+
+  filter: invert(46%) sepia(79%) saturate(5469%) hue-rotate(217deg) brightness(99%) contrast(103%);
+}
+
+.social i {
+  margin: 0 10px 0 10px;
+
+}
+
+@media (max-width: 600px) {
+  ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    transform: scale(0.8);
+
+
+  }
+  .social {
+    justify-content: center;
+    flex-direction: row;
+
+  }
+}

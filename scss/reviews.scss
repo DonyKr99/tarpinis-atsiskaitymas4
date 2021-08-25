@@ -1,0 +1,99 @@
+.talking {
+  background: #F8F8F8;
+
+
+  // justify-content:space-evenly;
+  // flex-direction: row;
+}
+
+.people {
+  display: flex;
+  flex-wrap: wrap;
+  background: #F8F8F8;
+  // display: flex;
+  // flex-direction: row;
+  // flex-wrap: wrap;
+  justify-content:space-evenly;
+  height: 300px;
+  padding-top: 40px;
+  text-align: center;
+  line-height: 22px;
+}
+
+.person {
+  flex: 25%;
+}
+
+.people p {
+  color: grey;
+}
+.people h2 {
+  font-size: 20px;
+  margin-top: 10px;
+}
+.text h2 {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.Mar img{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  box-shadow: 2px 7px 5px -4px rgba(120,120,120,1);
+}
+.Fre img{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  box-shadow: 2px 7px 5px -4px rgba(120,120,120,1);
+}
+.Ser img{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  box-shadow: 2px 7px 5px -4px rgba(120,120,120,1);
+}
+
+
+
+// @media (min-width: 600px) {
+//   .talking {
+//     width: 100%;
+//     // float: none;
+//   }
+//   .person {
+//     // float: none;
+//   }
+// }
+
+
+@media screen and (min-width: 600px) {
+  .person {
+    flex-direction:column;
+    width: 100%;
+  }
+
+}
+
+
+@media screen and (max-width: 992px) {
+  .person {
+    flex: 60%;
+    height: 250px;
+  }
+  .talking {
+    height: 3300px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .person {
+    flex: 30%;
+    height: 250px;
+  }
+  .talking {
+    height: 1670px;
+  }
+}
